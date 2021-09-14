@@ -1,20 +1,27 @@
-
 * {
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 22px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .body {
-    margin: auto;
-    width: 60%;
-    height: 100%;
-    border: 1px solid black;
+  margin: auto;
+  width: 70%;
+  height: 100%;
+  border: 1px solid black;
+  display: block;
 }
 
-header {
-    width: 100%;
+
+.head {
     height: 120px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+.head > div {
+    padding: 40px;
 }
