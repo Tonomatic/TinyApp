@@ -1,34 +1,37 @@
 * {
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box;
   font-size: 22px;
   font-family: 'DM Sans', sans-serif;
+  height: 100%;
 }
 
-.body {
-  margin: auto;
-  width: 70%;
-  height: 100vh;
-  border: 1px solid black;
-  display: block;
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 10% 20% 10% 40% 20%;
 }
+
+
+
+
+
 
 
 .head {
-    height: 120px;
-    display: flex;
-    justify-content: space-around;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .head > div {
-    padding: 40px;
+  padding: 40px;
 }
 
 .main {
-    height: 80%;
-    margin:auto;
-    display: flex;
-    justify-content:space-between;
-    align-items: center
+  height: 80%;
+  margin:auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center
 }
