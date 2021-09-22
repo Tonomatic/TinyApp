@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 * {
   padding: 0px;
   margin: 0px;
@@ -19,9 +21,17 @@
   grid-area: 4/2/5/5;
 }
 
-.mainBody {
+/* .mainBody {
   display: flex;
   align-items: center;
+} */
+
+.mainBody, #location {
+  font-family: 'Audiowide', cursive;
+}
+
+.mainBody, #location {
+  font-size: 7rem;
 }
 
 .head {
@@ -33,4 +43,8 @@
 #left, #right {
   all: unset;
   cursor: pointer;
+}
+
+.navItems {
+  all:unset;
 }
